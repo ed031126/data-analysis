@@ -23,7 +23,7 @@
     <button id="testButton">按我一下</button>
 
     <script>
-        document.getElementById('myForm").addEventListener('submit", function(e){
+        document.getElementById('myForm").addEventListener("submit", function(e){
             e.prevenDefault();
             gtag('event', 'form_submit', {form_id: "myForm'});
             alert('GA4 表單提交事件已發送');
